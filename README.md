@@ -1,4 +1,7 @@
 # How to start
- - Unzip the folder project folder in php supported environment folder.
- - run php artisan serve command
- - two variables are defined in .env file and other config params are in shapesConfig.php file present under config folder.
+ - create a new .env file using .env.example file.
+ - add below varibles in .env file.
+ - SHAPES="rectangle,circle,square,ellipse"
+ - PI="3.14"
+ - execute composer install command in terminal
+ - execute php artisan serve command in terminal
